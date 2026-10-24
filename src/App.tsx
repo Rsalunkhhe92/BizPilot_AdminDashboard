@@ -108,6 +108,18 @@ export const SYSTEM_FEATURES: FeatureItem[] = [
 
   // Travels
   { key: 'online_booking', label: 'Online Booking', category: 'Travel Operator', description: 'Bus trips, seat map & bookings' },
+
+  // Mahila Bachat Gat (SHG)
+  { key: 'shg_groups', label: 'Groups', category: 'Mahila Bachat Gat', description: 'Group registration, approval & officers' },
+  { key: 'shg_members', label: 'Members', category: 'Mahila Bachat Gat', description: 'Member KYC, roles, exit & settlement' },
+  { key: 'shg_savings', label: 'Savings', category: 'Mahila Bachat Gat', description: 'Dues, collection, receipts & ledger' },
+  { key: 'shg_loans', label: 'Internal Loans', category: 'Mahila Bachat Gat', description: 'Applications, approval, disbursement & repayment' },
+  { key: 'shg_meetings', label: 'Meetings', category: 'Mahila Bachat Gat', description: 'Attendance, minutes & resolutions' },
+  { key: 'shg_accounts', label: 'Accounts', category: 'Mahila Bachat Gat', description: 'Cashbook, bankbook, reconciliation & closing' },
+  { key: 'shg_business', label: 'Livelihood Business', category: 'Mahila Bachat Gat', description: 'Products, stock, sales, purchases & P&L' },
+  { key: 'shg_schemes', label: 'Bank & Schemes', category: 'Mahila Bachat Gat', description: 'Bank linkage & government scheme tracking' },
+  { key: 'shg_reports', label: 'Reports', category: 'Mahila Bachat Gat', description: 'PDF / Excel reports & audit trail' },
+  { key: 'shg_settings', label: 'Policies', category: 'Mahila Bachat Gat', description: 'Savings, loan & approval rules' },
 ]
 
 export const DEFAULT_BUSINESS_FEATURES: Record<string, string[]> = {
@@ -122,6 +134,7 @@ export const DEFAULT_BUSINESS_FEATURES: Record<string, string[]> = {
   'Travels Bus Booking Online': ['online_booking', 'vehicle', 'trips', 'fuel'],
   'Travels Online Booking': ['online_booking', 'vehicle', 'trips', 'fuel'],
   'Travels': ['online_booking', 'vehicle', 'trips', 'fuel'],
+  'Mahila Bachat Gat': ['shg_groups', 'shg_members', 'shg_savings', 'shg_loans', 'shg_meetings', 'shg_accounts', 'shg_business', 'shg_schemes', 'shg_reports', 'shg_settings'],
   'Other local businesses': ['ledger', 'dues'],
 }
 
