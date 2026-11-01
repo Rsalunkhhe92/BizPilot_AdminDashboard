@@ -120,6 +120,16 @@ export const SYSTEM_FEATURES: FeatureItem[] = [
   { key: 'shg_schemes', label: 'Bank & Schemes', category: 'Mahila Bachat Gat', description: 'Bank linkage & government scheme tracking' },
   { key: 'shg_reports', label: 'Reports', category: 'Mahila Bachat Gat', description: 'PDF / Excel reports & audit trail' },
   { key: 'shg_settings', label: 'Policies', category: 'Mahila Bachat Gat', description: 'Savings, loan & approval rules' },
+
+  // Food Seller
+  { key: 'food_inventory', label: 'Stock Products', category: 'Food Seller', description: 'Raw materials, consumables, suppliers & stock adjustments' },
+  { key: 'food_purchases', label: 'Purchases', category: 'Food Seller', description: 'Daily multi-product purchases & supplier history' },
+  { key: 'food_consumption', label: 'Consumption', category: 'Food Seller', description: 'Daily raw material usage, wastage & remaining stock' },
+  { key: 'food_menu', label: 'Food Menu & Recipes', category: 'Food Seller', description: 'Food products, recipes, preparation cost & profit per unit' },
+  { key: 'food_sales', label: 'Sales', category: 'Food Seller', description: 'Daily sales with recipe stock deduction, cash, UPI & credit' },
+  { key: 'food_expenses', label: 'Expenses', category: 'Food Seller', description: 'Rent, labour, electricity & other business expenses' },
+  { key: 'food_reports', label: 'Reports & P&L', category: 'Food Seller', description: 'Profit & loss, stock and sales reports with PDF / Excel export' },
+  { key: 'food_ai', label: 'AI Assistant', category: 'Food Seller', description: 'Business questions, purchase suggestions & daily summaries' },
 ]
 
 export const DEFAULT_BUSINESS_FEATURES: Record<string, string[]> = {
@@ -135,6 +145,7 @@ export const DEFAULT_BUSINESS_FEATURES: Record<string, string[]> = {
   'Travels Online Booking': ['online_booking', 'vehicle', 'trips', 'fuel'],
   'Travels': ['online_booking', 'vehicle', 'trips', 'fuel'],
   'Mahila Bachat Gat': ['shg_groups', 'shg_members', 'shg_savings', 'shg_loans', 'shg_meetings', 'shg_accounts', 'shg_business', 'shg_schemes', 'shg_reports', 'shg_settings'],
+  'Food Seller': ['food_inventory', 'food_purchases', 'food_consumption', 'food_menu', 'food_sales', 'food_expenses', 'food_reports', 'food_ai'],
   'Other local businesses': ['ledger', 'dues'],
 }
 
